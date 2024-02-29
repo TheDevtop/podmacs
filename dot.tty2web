@@ -1,0 +1,32 @@
+port = "8079"
+permit_write = true
+title_format = "Podmacs"
+
+preferences {
+	font_family = "monospace"
+	font_size = 16
+	background_color = "#EEEEEE"
+	foreground_color = "#1C1C1C"
+
+	color_palette_overrides = [
+		// dark:
+		"#EEEEEE",
+		"#AF0000",
+		"#008700",
+		"#5F8700",
+		"#0087AF",
+		"#878787",
+		"#005F87",
+		"#1C1C1C",
+		// bright:
+		"#BCBCBC",
+		"#D70000",
+		"#D70087",
+		"#8700AF",
+		"#FFAF00",
+		"#D75F00",
+		"#005FAF",
+		"#005F87"
+	]
+}
+

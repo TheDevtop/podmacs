@@ -1,6 +1,7 @@
 FROM alpine:3.22
 
 RUN apk update && apk add emacs-nox openssh-server
+RUN apk cache purge
 RUN echo '/usr/local/bin/elogin' >> /etc/shells
 RUN passwd -d root
 

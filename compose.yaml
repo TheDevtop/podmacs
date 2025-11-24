@@ -1,0 +1,10 @@
+services:
+  podmacs:
+    image: ghcr.io/thedevtop/podmacs:latest
+    restart: unless-stopped
+    init: true
+    volumes:
+      - podmacs_data:/root
+
+volumes:
+  podmacs_data:
